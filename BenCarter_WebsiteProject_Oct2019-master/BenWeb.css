@@ -1,0 +1,74 @@
+img{
+    width: auto;
+    width: 100%;
+    min-width: 350px;
+    max-width: 960px;
+
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 350px;
+    max-width: 2560px;
+    background-image: url("images/navbarBG.png")
+}
+
+body{
+    width: auto;
+    min-width: 350px;
+    max-width: 1200px;
+    color: lightgray;
+    margin-top: Auto;
+    margin-left: Auto; 
+    margin-right: Auto;
+    margin-bottom: Auto;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 1px 3px black;
+    background-image: url("images/carbonblur.jpg"); 
+    background-attachment: fixed;
+    background-repeat: repeat; 
+    background-position:top;   
+}
+
+h1{
+    color:green;
+    width: 100% auto;
+    text-shadow: 0px 1px 4px "purple";
+    background-image: url("images/navbarBG.png")
+}
+
+h2{
+    color:green;
+    text-shadow: 0px 1px 4px black;
+}
+
+h3{
+    color: green;
+    tex-shadow: 0px 1px 3px black;
+}
+
+.link{
+    color:palegreen;
+    font-size 15px;
+    padding: 10px;
+}
+
+.link:hover{
+    color:black;
+    text-shadow: 0px 1px 5px whitesmoke;  
+        
+}
+
+.footer{
+    position: relative;
+    text-align: center justify;
+    bottom: 10px;    
+    width: 100% auto;
+    min-width: 350px;
+    max-width: 1920px;
+        background-image: url("images/navbarBG.png");
+}
