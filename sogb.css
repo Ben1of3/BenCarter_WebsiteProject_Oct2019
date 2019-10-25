@@ -94,7 +94,7 @@ body{
     background-color: black;
     background-image: url("imgs/viper.gif");
     background-attachment: fixed;
-    background-repeat: round;
+    background-repeat: no-repeat;
     background-position: top;
 
 }
