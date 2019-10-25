@@ -106,9 +106,10 @@ body{
 }
 
 .widget{
-    position: right;
+    image-position: right;
     text align: right;
-
+    margin-left:400px;
+    
 footer{
     position: fixed;
     width: 100%;
