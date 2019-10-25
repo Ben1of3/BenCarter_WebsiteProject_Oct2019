@@ -77,9 +77,8 @@ body{
     width: auto;
     min-width: 580px;
     max-width: 1200;
-
+    float:left;
     position: left;
-
     color: lightgray;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -106,7 +105,7 @@ body{
 }
 
 .widget{
-    margin-left:400px;
+    float: right;
 }
     
 footer{
