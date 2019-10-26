@@ -1,8 +1,9 @@
 img{
     width: auto;
     width: 100%;
-    min-width: 580px;
-    max-width: 1920px;
+    min-width: 500px;
+    max-width: 900px;
+    margin: 15px;
 
 }
 
@@ -27,7 +28,7 @@ img{
 .head{
     color: lightgray;
     min-width: 580px;
-    max-width: 1200px;
+    max-width: 1920px;
     position: left;
     top: 25px;
     right: 0;
@@ -39,11 +40,12 @@ img{
 h1{
     color: black;
     font-size: 60px;
-    text-shadow: 0px 0px 18px orangered;
+    text-shadow: 0px 0px 18px whitesmoke;
     text-emphasis: bold;
     text-align: center;
     background-image: url("imgs/borderTOP.png");
-    
+    margin: auto;
+
 }
 
 h2{
@@ -51,7 +53,7 @@ h2{
     font-size: 40px;
     text-emphasis: bold;
     text-align: center;
-    text-shadow: 0px 0px 14px whitesmoke;
+    text-shadow: 0px 0px 16px whitesmoke;
     background-image: url("imgs/borderTOP.png");
     width: auto;
         
@@ -73,34 +75,40 @@ h4{
     text-shadow; 0px 0px 10px black
 }
 
+iframe{
+    margin: 6px;
+}
+
 body{
     width: auto;
-    min-width: 580px;
-    max-width: 900;
+    min-width: 500px;
+    max-width: 1800;
     float:left;
-    position: left;
+    position: center;
     color: lightgray;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: justify;
     text-shadow: 0px 0px 10px black;
 
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 
     background-color: black;
-    background-image: url("imgs/viper.gif");
+    background-image: url("imgs/BGbeards.png");
     background-attachment: fixed;
-    background-repeat: round no-repeat;
+    background-repeat: repeat;
     background-position: center;
-
+    
 }
 
 .container{
     width: 100%;
     text-align: center;
+    grid-auto-columns: 1;
+    column-gap: 10px
 
 }
 
@@ -109,6 +117,17 @@ body{
     position: right;
     top: 0;
     right:0;
+    margin: 10px;
+    margin-left: 45px;
+}
+
+.sigs{
+    position: center;
+    float: center;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 20px;
+
 }
     
 footer{
@@ -135,6 +154,9 @@ footer{
     color: red;
     text-decoration: underline overline red;
     text-shadow: 0px 0px 20px orange;
+    .img:hover{
+        color:red;
+    }
     
 }
 
