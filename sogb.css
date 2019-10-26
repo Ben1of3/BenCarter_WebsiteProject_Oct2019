@@ -1,21 +1,11 @@
-img{
-    width: auto;
-    width: 100%;
-    min-width: 500px;
-    max-width: 900px;
-    margin: 15px;
-
-}
-
 .navbar{
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
-    min-width: 580px;
-    max-width: 1920px;
+    min-width: 350px;
     text-align: right;
-    background-color:black;
+    background-image: url("images/navbarBG.png");
         
 }
 
@@ -28,39 +18,61 @@ img{
 .head{
     color: lightgray;
     min-width: 580px;
-    max-width: 1920px;
-    position: left;
-    top: 25px;
+    max-width: 1024px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 100px;
+    top: 0;
     right: 0;
     text-align: justify;
     text-shadow: 0px 0px 10px black;
+    font-size: 16px;
+
+}
+
+img{
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    max-width: 2560px;
+    margin: 15px;
+    position: center;
+
+}
+
+.iframe{
+    padding: 10px;
+    margin: 10px;
 
 }
 
 h1{
     color: black;
+    opacity: 65%;
     font-size: 60px;
-    text-shadow: 0px 0px 18px whitesmoke;
-    text-emphasis: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 1px 4px white;
     text-align: center;
-    background-image: url("imgs/borderTOP.png");
     margin: auto;
+    background-color: darkslategrey;
+    border-block-start-style: outset;
+    border-block-end-style: inset;    
 
 }
 
 h2{
-    color: black;
+    color: white;
     font-size: 40px;
     text-emphasis: bold;
     text-align: center;
-    text-shadow: 0px 0px 16px whitesmoke;
-    background-image: url("imgs/borderTOP.png");
+    text-shadow: 0px 0px 16px black;
     width: auto;
         
 }
 
 h3{
-    font-size: 20px;
+    font-size: 18px;
+    font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: orangered;
     text-emphasis: bold;
     text-align: justify;
@@ -70,20 +82,29 @@ h3{
 
 h4{
     font-size: 20px;
-    color: orangered;
+    font-family: Verdana;
+    color: black;
     text-align: center;
-    text-shadow; 0px 0px 10px black
+    text-shadow: 0px 0px 10px red;
+    width: auto;
+    height: 16px;
+    background-position: center;
+    margin: 15px;
+
 }
 
-iframe{
-    margin: 6px;
+h5{
+    color: black;
+    font-size: 1px;
+    font-family: fantasy;
+    background-color: orangered;
+    height: 1px;
+    margin-bottom: 5px:
+
 }
 
 body{
-    width: auto;
-    min-width: 500px;
-    max-width: 1800;
-    float:left;
+    float: middle;
     position: center;
     color: lightgray;
     font-size: 16px;
@@ -91,54 +112,58 @@ body{
     text-align: justify;
     text-shadow: 0px 0px 10px black;
 
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: auto;
+
+    width: 100%;
+    min-width: 500px;
+    max-width: 1024px;
 
     background-color: black;
-    background-image: url("imgs/BGbeards.png");
+    background-image: url("imgs/viper.gif");
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
     
 }
 
 .container{
-    width: 100%;
+    max-width: 2560px;
     text-align: center;
     grid-auto-columns: 1;
-    column-gap: 10px
+    column-gap: 4px
 
 }
 
 .widget{
+    width: 25%;
     float: right;
-    position: right;
+    position: right bottom;
     top: 0;
-    right:0;
-    margin: 10px;
-    margin-left: 45px;
+    right: 0;
+    margin-right: 50px;
+    margin-left: 25px;
 }
 
 .sigs{
     position: center;
     float: center;
-    margin: 10px;
+    margin-right: 125px;
     font-family: monospace;
     font-size: 20px;
+    text-align: end;
+    text-shadow: 0px 0px 3px black;
 
 }
     
 footer{
-    position: fixed;
+    position: bottom relative;
     width: 100%;
     min-width: 350px;
     max-width: 1920px;
     bottom: 0;
     right: 0;
     text-align: right;
-    background-color: black;
+    background-image: url("images/navbarBG.png");
     
 }
 
@@ -154,13 +179,12 @@ footer{
     color: red;
     text-decoration: underline overline red;
     text-shadow: 0px 0px 20px orange;
-    .img:hover{
-        color:red;
-    }
-    
+        
 }
 
 .link:active{
+    color: black;
     background-color: grey;
-    
+    transition-delay: 15ms;
+
 }
