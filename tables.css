@@ -1,0 +1,151 @@
+.navbar{
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+
+}
+
+body{
+    position: center;
+    text-align: justify;
+    text-shadow: 0px 0px 5px black;
+    color: palegreen;
+    font-size: 20px;
+    background-image: url("imgs/swirl.gif");
+    margin: 25px;
+    max-width: 960px;
+
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-bottom: solid 1px black;
+    padding: 12px;
+    
+
+}
+
+table{
+    width: 100%;
+    background-color: grey;
+
+}
+
+th{
+    color: black;
+    text-shadow: 0px 0px 3px red;
+    height: 50px;
+    text-align: right;
+
+}
+
+td{
+    color: darkslategray;
+    text-shadow:0px 0px 3px green;
+    vertical-align: bottom;
+
+}
+
+
+h1{
+    color: black;
+    opacity: 65%;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 1px 4px white;
+    text-align: center;
+    margin: auto;
+    background-color: darkslategrey;
+    border-block-start-style: outset;
+    border-block-end-style: inset;    
+
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-emphasis: bold;
+    text-align: center;
+    text-shadow: 0px 0px 16px black;
+    width: auto;
+        
+}
+
+h3{
+    font-size: 22px;
+    font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    text-emphasis: bold;
+    text-align: justify;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+h4{
+    font-size: 20px;
+    font-family: Verdana;
+    color: black;
+    text-align: right;
+    text-shadow: 0px 0px 10px red;
+    width: auto;
+    height: 16px;
+    background-position: center;
+    margin: 15px;
+
+}
+
+h5{
+    color: black;
+    font-size: 1px;
+    font-family: fantasy;
+    background-color: orangered;
+    height: 1px;
+    margin-bottom: 5px:
+
+}
+
+.link{
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: black;
+
+}
+
+.link:hover{
+    font-size: 24px;
+    color: black;
+    text-shadow: 0px 0px 3px crimson;
+    background-color: red;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: black;
+
+}
+
+button{
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    opacity: 25%;
+    
+
+}
+
+button:hover{
+    font-size: 24px;
+    color: black;
+    text-shadow: 0px 0px 10px black;
+    background-color: yellow;
+
+}
