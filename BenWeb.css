@@ -21,10 +21,10 @@ body{
     min-width: 350px;
     max-width: 1200px;
     color: lightgray;
-    margin-top: Auto;
-    margin-left: Auto; 
-    margin-right: Auto;
-    margin-bottom: Auto;
+    margin-top: auto;
+    margin-left: 15px auto; 
+    margin-right: 15px auto;
+    margin-bottom: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
