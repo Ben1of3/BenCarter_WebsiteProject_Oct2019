@@ -6,6 +6,7 @@
     min-width: 350px;
     text-align: right;
     background-image: url("images/navbarBG.png");
+    z-index: 99;
         
 }
 
@@ -46,6 +47,36 @@ img{
 
 }
 
+.column {
+    float: left;
+    width: 45%;
+    margin: 20px;  
+    column-gap: 40px;
+    background-color: black;
+    opacity: 75%;
+
+}
+  
+.column1 {
+    float: left;
+    width: 24%;
+    opacity: 75%;
+
+}
+
+.column2 {
+    float: right;
+    width: 74%;
+    opacity: 75%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 h1{
     color: black;
     opacity: 65%;
@@ -67,15 +98,17 @@ h2{
     text-align: center;
     text-shadow: 0px 0px 16px black;
     width: auto;
+    border-block-start-style: outset;
+    border-block-end-style: inset;  
         
 }
 
 h3{
-    font-size: 18px;
+    font-size: 25px;
     font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: orangered;
+    color: rgb(255, 91, 31);
     text-emphasis: bold;
-    text-align: justify;
+    text-align: center;
     text-shadow: 0px 0px 10px black;
 
 }
@@ -96,7 +129,7 @@ h4{
 h5{
     color: black;
     font-size: 1px;
-    font-family: fantasy;
+    font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: orangered;
     height: 1px;
     margin-bottom: 5px:
@@ -105,14 +138,12 @@ h5{
 
 body{
     float: middle;
-    position: center;
-    color: lightgray;
+    color: white;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    text-shadow: 0px 0px 10px black;
 
-    margin: auto;
+    margin: 50px;
 
     width: 100%;
     min-width: 500px;
@@ -122,35 +153,40 @@ body{
     background-image: url("imgs/bigbounce.gif");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: top;
+            
 }
 
 .container{
     max-width: 2560px;
     text-align: center;
     grid-auto-columns: 1;
-    column-gap: 4px
+    column-gap: 20px;
 
+}
+
+.rules{
+    position: center;
+    text-align: center;
+    background-color: black;
+    opacity: 75%;
 }
 
 .widget{
-    width: 25%;
-    float: right;
-    position: right bottom;
+    width: auto;
+    float: left;
+    position: left bottom;
     top: 0;
-    right: 0;
-    margin-right: 50px;
-    margin-left: 25px;
+    left: 0;
+    margin: 25px;
 }
 
 .sigs{
-    position: center;
-    float: center;
-    margin-right: 125px;
+    float: left;
+    margin: 20px;
     font-family: monospace;
     font-size: 20px;
-    text-align: end;
+    text-align: left;
     text-shadow: 0px 0px 3px black;
 
 }
@@ -168,7 +204,7 @@ footer{
 }
 
 .link{
-    color: orangered;
+    color: orange;
     font-size 20px;
     padding: 10px;
     text-shadow: 0px 0px 10px black;
