@@ -1,0 +1,223 @@
+.navbar{
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    z-index: 99;
+    padding: 10px;
+    border-block-end-style: inset;
+
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+
+}
+
+.head{
+        color: lightgray;
+        min-width: 580px;
+        max-width: 1024px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: 100px;
+        top: 0;
+        right: 0;
+        text-align: justify;
+        text-shadow: 0px 0px 10px black;
+        font-size: 16px;
+
+}
+
+h1{
+    color: orangered;
+    opacity: 85%;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-shadow: 0px 2px 2px blue;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    border-block-start-style: outset;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-block-end-style: inset;
+    
+
+
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-emphasis: bold;
+    text-align: center;
+    text-shadow: 0px 0px 16px black;
+    width: auto;
+    border-block-start-style: outset;
+    border-block-end-style: inset;  
+        
+}
+
+h3{
+    font-size: 25px;
+    font-family: fantasy 'Franklin Gothic Medium';
+    color: orange;
+    text-emphasis: bold;
+    text-align: center;
+    text-shadow: 0px 0px 5x black;
+    background-color: black;
+
+    opacity: 90%;
+
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+    text-align: right;
+    text-shadow: 0px 0px 10px red;
+    width: auto;
+    height: 16px;
+    background-position: center;
+    margin: 15px;
+
+}
+
+h5{
+    color: black;
+    font-size: 1px;
+    font-family: fantasy 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkred;
+    height: 1px;
+    margin-bottom: 5px:
+
+}
+
+body{
+    color: lightgrey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+    position: center;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    padding: 5px;
+    
+    margin: 50px;
+    background-color: black;
+    background-image: url("imgs/edbg.jpg");
+    opacity: 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-width: 250px;
+    
+
+            
+}
+
+
+.column1 {
+    position: center;
+    float: left;
+    margin: 10px;  
+    column-gap: 1px;
+    background-color: black;
+    padding: 9px;
+    width: 44%;
+    border-block-start-style: outset;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-block-end-style: inset;
+    border-color: orangered;
+    text-align: left;    
+    
+}
+
+.column2 {
+    position: center;
+    float: right;
+    margin: 10px;  
+    column-gap: 1px;
+    background-color: black;
+    padding: 9px;
+    width: 44%;
+    border-block-start-style: outset;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-block-end-style: inset;
+    border-color: orangered;
+    text-align: right;
+
+}
+
+
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+.container{
+    float: center;
+    color: black;
+    background-color: lightgrey;
+    opacity: 90%;
+    text-align: center;
+    padding: 15px;
+    max-width: 900px;
+    position: center;
+    margin: auto;
+    border-block-start-style: outset;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-block-end-style: inset;
+    border-color: orangered;
+
+}
+
+.link{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    text-decoration: overline underline;
+    padding 10px;
+
+}
+
+.link:hover{
+    color: white;
+    text-emphasis: bold;
+    text-shadow: orangered 0px 0px 5px;
+    text-decoration: overline underline red;
+    text-shadow: 1px 1px 1px yellow;
+
+}
+
+.link:active{
+    color: red;
+    background-color: darkslategrey;
+    text-decoration: none;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 80%;
+    text-align: right;
+    
+}
