@@ -155,9 +155,10 @@ body{
     
     margin-right: 50px;
     padding: 50px;
-    width: 98%;
+    width: 75%;
     min-width: 250px;
     max-width: 2560px;
+    float: center;
 
     background-color: black;
     background-image: url("imgs/edbg.jpg");
