@@ -190,7 +190,7 @@ body{
 }
 
 .sigs{
-    float: right;
+    float: center;
     margin: 20px;
     font-family: monospace;
     font-size: 18px;
