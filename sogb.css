@@ -52,6 +52,7 @@ img{
     width: 45%;
     margin: 20px;  
     column-gap: 40px;
+    padding: 10px;
     background-color: black;
     opacity: 75%;
 
@@ -68,6 +69,13 @@ img{
     float: right;
     width: 74%;
     opacity: 75%;
+
+}
+
+.row {
+    width: auto 100%;
+    background-color: black;
+    opacity: 50%;
 
 }
 
