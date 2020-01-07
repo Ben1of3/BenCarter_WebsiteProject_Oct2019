@@ -169,6 +169,7 @@ body{
     padding: 50px;
     grid-auto-columns: 1;
     column-gap: 25px;
+    position: center;
 
 }
 
