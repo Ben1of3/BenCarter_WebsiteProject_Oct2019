@@ -50,7 +50,7 @@ img{
 
 .column {
     float: left;
-    width: 75%;
+    width: 44%;
     margin: 20px;  
     column-gap: 20px;
     padding: 10px;
@@ -155,7 +155,7 @@ body{
     
     margin-right: 50px;
     padding: 50px;
-    width: 75%;
+    width: 90%;
     min-width: 250px;
     max-width: 2560px;
     float: center;
