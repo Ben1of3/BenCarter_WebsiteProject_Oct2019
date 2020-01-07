@@ -47,6 +47,7 @@ img{
     float: center;
     padding: 25px;
     margin: 25px;
+    column-gap: 20px;
 
 }
 
