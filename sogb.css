@@ -49,9 +49,9 @@ img{
 
 .column {
     float: left;
-    width: 45%;
+    width: 40%;
     margin: 20px;  
-    column-gap: 40px;
+    column-gap: 20px;
     padding: 10px;
     background-color: black;
     opacity: 75%;
