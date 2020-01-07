@@ -42,8 +42,9 @@ img{
 }
 
 .iframe{
+    float: center;
     padding: 25px;
-    margin: 10px;
+    margin: 25px;
 
 }
 
