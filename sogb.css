@@ -195,7 +195,7 @@ body{
 }
 
 .footer{
-    position: fixed;
+    position: fixed, absolute;
     width: 100%;
     min-width: 350px;
     bottom: 0;
