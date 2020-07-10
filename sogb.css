@@ -92,6 +92,7 @@ img{
 
 .row {
     width: auto 100%;
+    padding: 10px;
     background-color: black;
     opacity: 80%;
 
