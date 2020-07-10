@@ -230,7 +230,7 @@ body{
 }
     
 footer{
-    position: bottom relative center;
+    position: bottom, center, fixed;
     width: 100%;
     min-width: 350px;
     bottom: 0;
