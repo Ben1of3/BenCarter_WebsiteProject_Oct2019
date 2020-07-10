@@ -5,15 +5,14 @@
     width: 100%;
     min-width: 350px;
     text-align: center;
-    background-image: url("images/navbarBG.png");
+    background-color: black;
+    opacity: 90%;
     z-index: 99;
-        
 }
 
 .icon {
     height: 20px;
     width: 20px;
-        
 }
 
 marquee{
@@ -25,7 +24,6 @@ marquee{
     text-align: center;
     color: green;
     animation: blinkingText 3.5s infinite;
-    
 }
 @keyframes blinkingText{
     0%{ color:whitesmoke}
@@ -54,7 +52,6 @@ marquee{
     font-size: 16px;
     background-color: black;
     opacity: 80%;
-
 }
 
 img{
@@ -64,39 +61,27 @@ img{
     max-width: 2560px;
     margin: 15px;
     position: center;
-
 }
-
 
 .column {
     margin: auto;  
     column-gap: 10px;
     padding: 10px;
-    background-color: black;
-    opacity: 75%;
-
 }
-  
 .column1 {
     float: left;
-    width: 43%;
-
+    width: 47%;
 }
-
 .column2 {
     float: right;
-    width: 43%;
-
+    width: 47%;
 }
 
 .row {
     width: auto 100%;
-    padding: 10px;
     background-color: black;
     opacity: 75%;
-
 }
-
 .row:after {
     content: "";
     display: table;
@@ -161,7 +146,6 @@ h5{
     background-color: orangered;
     height: 1px;
     margin-bottom: 5px:
-
 }
 
 body{
@@ -170,26 +154,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     background-color: black;
-    
     position: center;
     top: 0%;
     left: 0%;
-    
-    margin-right: 50px;
-    padding: 50px;
+    margin: auto;
     width: 90%;
     min-width: 250px;
     max-width: 2560px;
     float: center;
-    
     background-image: url("imgs/edbg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
 }
-
 
 .container{
     max-width: 2560px;
@@ -199,7 +177,6 @@ body{
     grid-auto-columns: 1;
     column-gap: 25px;
     position: center;
-
 }
 
 .rules{
@@ -217,7 +194,6 @@ body{
     opacity:75%
 }
 
-    
 footer{
     position: fixed;
     width: 100%;
@@ -225,7 +201,6 @@ footer{
     bottom: 0;
     text-align: center;
     background-image: url("images/navbarBG.png");
-    
 }
 
 .link{
@@ -233,19 +208,14 @@ footer{
     font-size 20px;
     padding: 10px;
     text-shadow: 0px 0px 10px black;
-    
 }
-
 .link:hover{
     color: red;
     text-decoration: underline overline red;
     text-shadow: 0px 0px 20px orange;
-        
 }
-
 .link:active{
     color: black;
     background-color: grey;
     transition-delay: 15ms;
-
 }
