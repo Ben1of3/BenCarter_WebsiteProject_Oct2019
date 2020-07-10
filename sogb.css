@@ -219,8 +219,7 @@ body{
 
 .widget{
     width: auto;
-    float: left;
-    position: left bottom;
+    float: center;
     top: 0;
     left: 0;
     margin: 25px;
