@@ -229,11 +229,10 @@ body{
 }
     
 footer{
-    position: bottom, center, fixed;
+    position: fixed;
     width: 100%;
     min-width: 350px;
     bottom: 0;
-    right: 0;
     text-align: center;
     background-image: url("images/navbarBG.png");
     
