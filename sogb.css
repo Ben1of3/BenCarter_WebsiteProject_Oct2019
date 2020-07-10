@@ -69,11 +69,10 @@ img{
 
 
 .column {
-    float: left;
-    width: 44%;
+    width: 40%;
     margin: 20px;  
     column-gap: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: black;
     opacity: 75%;
 
@@ -81,13 +80,13 @@ img{
   
 .column1 {
     float: left;
-    width: 24%;
+    width: 40%;
 
 }
 
 .column2 {
     float: right;
-    width: 74%;
+    width: 40%;
 
 }
 
