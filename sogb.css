@@ -80,13 +80,13 @@ img{
   
 .column1 {
     float: left;
-    width: 40%;
+    width: 43%;
 
 }
 
 .column2 {
     float: right;
-    width: 40%;
+    width: 43%;
 
 }
 
@@ -194,8 +194,8 @@ body{
 .container{
     max-width: 2560px;
     text-align: center;
-    margin: 50px;
-    padding: 50px;
+    margin: auto;
+    padding: 10px;
     grid-auto-columns: 1;
     column-gap: 25px;
     position: center;
