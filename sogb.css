@@ -79,6 +79,7 @@ img{
 
 .row {
     width: auto 100%;
+    padding: 10px;
     background-color: black;
     opacity: 75%;
 }
@@ -158,8 +159,6 @@ body{
     top: 0%;
     left: 0%;
     margin: auto;
-    padding: 10px;
-    width: 90%;
     min-width: 250px;
     max-width: 2560px;
     float: center;
