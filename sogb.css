@@ -16,6 +16,30 @@
         
 }
 
+marquee{
+    style: scrollamount="100" direction="left"
+    position: center;
+    top: auto;
+    font-family: courier;
+    font-size: 18pt;
+    text-align: center;
+    color: green;
+    animation: blinkingText 3.5s infinite;
+    
+}
+@keyframes blinkingText{
+    0%{ color:whitesmoke}
+    19%{color: transparent}
+    20%{ color: lightgreen}
+    39%{ color: transparent}
+    40%{ color: green}
+    59%{ color: transparent}
+    60%{ color: darkgreen}
+    79%{ color: transparent}
+    80%{ color: darkgrey}
+    100%{ color: transparent}
+}
+
 .head{
     color: lightgray;
     min-width: 580px;
