@@ -212,9 +212,7 @@ body{
 
 .widget{
     width: auto;
-    float: center;
-    top: 0;
-    left: 0;
+    position: center;
     margin: 25px;
     background-color: black;
     opacity:75%
