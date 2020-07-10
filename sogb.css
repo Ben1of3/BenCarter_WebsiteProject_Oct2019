@@ -6,7 +6,7 @@
     min-width: 350px;
     text-align: center;
     background-color: black;
-    opacity: 90%;
+    opacity: 80%;
     z-index: 99;
 }
 
@@ -194,7 +194,7 @@ body{
     opacity:75%
 }
 
-footer{
+.footer{
     position: fixed;
     width: 100%;
     min-width: 350px;
