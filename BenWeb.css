@@ -19,12 +19,12 @@ img{
 body{
     width: auto;
     min-width: 350px;
-    max-width: 1200px;
+    max-width: 1920px;
     color: lightgray;
-    margin: auto 50px;
     margin-top: auto;
-    position: center;
-    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
